@@ -5,7 +5,7 @@ on:
       - main
     paths:
       - "**.tex"
-      - ".github/workflows/build.yml"
+      - ".github/workflows/build.yaml"
 permissions:
   contents: write
 concurrency:
