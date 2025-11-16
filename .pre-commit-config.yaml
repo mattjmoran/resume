@@ -1,0 +1,23 @@
+repos:
+  # Markdown
+  - repo: https://github.com/markdownlint/markdownlint
+    rev: v0.13.0
+    hooks:
+      - id: markdownlint_docker
+  # YAML
+  - repo: https://github.com/google/yamlfmt
+    rev: v0.20.0
+    hooks:
+      - id: yamlfmt
+  # GitHub Actions
+  - repo: https://github.com/rhysd/actionlint
+    rev: v1.7.8
+    hooks:
+      - id: actionlint-docker
+  # Text
+  - repo: https://github.com/crate-ci/typos
+    rev: v1.39.2
+    hooks:
+      - id: typos-docker
+        exclude: '\.gitignore$'
+        args: []
