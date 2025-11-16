@@ -1,0 +1,160 @@
+% -----------------------------------------------------------------------------
+%  LaTeX Resume
+%  Author: Matthew J. Moran
+%  License: MIT
+%  Compile: ./build.sh resume.tex (XeLaTeX via Docker)
+% -----------------------------------------------------------------------------
+
+\documentclass[11pt]{article}
+
+% --- Packages ---
+\usepackage[letterpaper, margin=0.5in]{geometry}
+\usepackage[inline]{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{bookmark}
+
+% --- PDF Setup ---
+\hypersetup{
+  hidelinks,
+  pdftitle={Matthew J. Moran --- Resume},
+  pdfsubject={Resume},
+  pdfauthor={Matthew J. Moran}
+}
+\pagestyle{empty}
+\urlstyle{same}
+\raggedright
+
+% --- Section Formatting ---
+\titleformat{\section}{\large\scshape}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{1.5ex}{1.5ex}
+
+% --- List Configurations ---
+% Bullet points
+\setlist[itemize]{
+  nosep,
+  leftmargin=1.5em,
+  topsep=0.25ex,
+  after=\addvspace{1.5ex}
+}
+
+% Personal information list
+\newlist{info}{itemize*}{1}
+\setlist[info]{
+  label={},
+  itemjoin={\hspace{0.5em}\textbar\hspace{0.2em}},
+  before={\raggedright}
+}
+
+% --- Commands ---
+\newcommand{\summary}[1]{%
+  #1\par
+  \addvspace{2.5ex}
+}
+
+\newcommand{\organization}[2]{%
+  \textbf{#1}\hfill#2\par
+}
+
+\newcommand{\role}[2]{%
+  \emph{\small #1}\hfill\emph{\small #2}\par
+}
+
+\newcommand{\project}[3]{%
+  \textbf{#1} \textbar{} \emph{#2}\hfill\emph{\small #3}\par
+}
+
+\newcommand{\education}[4]{%
+  \textbf{#1}\hfill#2\par
+  \emph{\small #3}\hfill\emph{\small #4}\par
+  \addvspace{1.5ex}
+}
+
+\newcommand{\skill}[2]{%
+  \textbf{#1:} #2\par
+}
+
+% -----------------------------------------------------------------------------
+%  Resume Content
+% -----------------------------------------------------------------------------
+
+\begin{document}
+
+% --- Header ---
+\begin{center}
+  {\huge\textbf{Matthew J. Moran}}\\[0.25\baselineskip]
+  \small
+  \begin{info}
+    \item Chicago, IL
+    \item \href{tel:+12345678910}{+1 (234) 567-8910}
+    \item \href{mailto:matt@matthewjmoran.com}{matt@matthewjmoran.com}
+    \item \href{https://www.linkedin.com/in/matt-j-moran}{linkedin.com/in/matt-j-moran}
+    \item \href{https://github.com/mattjmoran}{github.com/mattjmoran}
+  \end{info}
+\end{center}
+
+% --- Professional Summary ---
+\summary{
+  Lorem ipsum dolor sit amet consectetur adipiscing elit.
+  Sit amet consectetur adipiscing elit quisque faucibus ex adipiscing elit quisque faucibus ex sapien vitae.
+}
+
+% --- Experience ---
+\section{Experience}
+
+\organization{JSA+Partners}{Santa Monica, CA}
+\role{Jr. Software Engineer (L3)}{Aug 2024--Present}
+\begin{itemize}
+  \item Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  \item Praesent vitae eros eget nisi eleifend commodo.
+  \item Duis non magna et elit accumsan maximus.
+\end{itemize}
+
+\organization{MCANTA}{Madison, WI}
+\role{Sr. QA Automation Engineer}{May 2023--Aug 2024}
+\begin{itemize}
+  \item Vivamus vel sapien et tortor feugiat consequat.
+  \item Pellentesque habitant morbi tristique senectus et netus.
+  \item Fusce sed magna eu ex sodales efficitur.
+\end{itemize}
+
+\role{Jr. QA Automation Engineer}{May 2021--May 2023}
+\begin{itemize}
+  \item Vestibulum fusce dictum risus blandit quis suspendisse aliquet.
+  \item Maecenas at justo et justo scelerisque placerat.
+  \item Proin non velit nec massa lacinia volutpat.
+\end{itemize}
+
+% --- Projects ---
+\section{Projects}
+
+\project{Name}{Lorem, Ipsum, Dolor, Sit, Amet}{May 2021--May 2023}
+\begin{itemize}
+  \item Curabitur et quam eget lacus scelerisque efficitur.
+  \item Natoque penatibus et magnis dis parturient montes nascetur.
+  \item Sed tincidunt erat vel est semper, sit amet dapibus.
+\end{itemize}
+
+\project{Name}{Lorem, Ipsum, Dolor, Sit, Amet}{May 2021--May 2023}
+\begin{itemize}
+  \item Ut auctor, massa nec fringilla, felis erat.
+  \item Integer nec odio. Praesent libero. Sed cursus ante dapibus.
+  \item Donec nec justo eget felis facilisis fermentum.
+\end{itemize}
+
+% --- Education ---
+\section{Education}
+
+\education%
+{University of Wisconsin--Madison}
+{Madison, WI}
+{B.S. in Computer Science \& Art (Graphic Design); GPA:\ 3.89}
+{Aug 2019--May 2023}
+
+% --- Skills ---
+\section{Skills}
+
+\skill{Languages}{Golang, TypeScript, JavaScript, Python, C}
+\skill{Technologies}{SvelteKit, Docker, GitHub Actions, Git, Bash, Claude Code, DigitalOcean, Matplotlib}
+
+\end{document}
