@@ -32,5 +32,5 @@ for inclusion in the work by you shall be licensed as above, without any
 additional terms or conditions.
 
 [GitHub Pages]: https://mattjmoran.github.io/resume/
-[Resume PDF]: https://github.com/mattjmoran/resume/releases/latest
+[Resume PDF]: https://github.com/mattjmoran/resume/releases/download/latest/resume.pdf
 [Project Attributions]: https://mattjmoran.github.io/resume/attributions

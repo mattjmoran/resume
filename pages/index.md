@@ -55,4 +55,4 @@ If this project helped you, consider [giving it a star on GitHub][GitHub Reposit
 
 [GitHub Repository]: https://github.com/mattjmoran/resume
 [Resume LaTeX]: https://github.com/mattjmoran/resume/blob/main/resume.tex
-[Resume PDF]: https://github.com/mattjmoran/resume/releases/latest
+[Resume PDF]: https://github.com/mattjmoran/resume/releases/download/latest/resume.pdf
