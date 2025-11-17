@@ -3,10 +3,14 @@
 A LaTeX-based resume template with resources and best practices for creating an
 effective resume.
 
-## Quick Links
+## Documentation
 
-- [View Documentation & Resources][GitHub Pages]
-- [Download Latest Resume (PDF)][Resume PDF]
+For more in-depth documentation and resume resources, visit the [project
+website][GitHub Pages].
+
+## Preview
+
+[![Resume Preview][Resume PNG]][Resume PDF]
 
 ## Attributions
 
@@ -33,4 +37,5 @@ additional terms or conditions.
 
 [GitHub Pages]: https://mattjmoran.github.io/resume/
 [Resume PDF]: https://github.com/mattjmoran/resume/releases/download/latest/resume.pdf
+[Resume PNG]: https://github.com/mattjmoran/resume/releases/download/latest/resume.png
 [Project Attributions]: https://mattjmoran.github.io/resume/attributions
