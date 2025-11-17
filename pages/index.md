@@ -28,6 +28,8 @@ Use an online LaTeX editor to get started quickly:
 
 ## Resources
 
+- [Best Practices Checklist][Best Practices Checklist] - Comprehensive resume
+  guidelines
 - [View Resume PDF][Resume PDF] - See the template in action
 - [GitHub Repository][GitHub Repository] - Source code and template
 
@@ -55,3 +57,4 @@ If this project helped you, consider [giving it a star on GitHub][GitHub Reposit
 [GitHub Repository]: https://github.com/mattjmoran/resume
 [Resume LaTeX]: https://github.com/mattjmoran/resume/blob/main/resume.tex
 [Resume PDF]: https://github.com/mattjmoran/resume/releases/download/latest/resume.pdf
+[Best Practices Checklist]: https://mattjmoran.github.io/resume/checklist
