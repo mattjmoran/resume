@@ -1,20 +1,18 @@
 # Metadata
 title: Matthew J. Moran's Resume
+tagline: Professional resume template and resources
 description: A LaTeX-based resume template with resources and best practices for creating an effective resume.
 author:
   name: Matthew J. Moran
-  email: matt@matthewjmoran.com
   url: https://matthewjmoran.com/
+social:
+  name: Matthew J. Moran
+  links:
+    - https://github.com/mattjmoran
+    - https://www.linkedin.com/in/matt-j-moran/
+lang: en
+locale: en_US
 # Plugins
 plugins:
-  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
-# Theme
-remote_theme: b2a3e8/jekyll-theme-console
-style: dark
-listen_for_clients_preferred_style: true
-header_pages:
-  - index.md
-sass:
-  style: compressed

@@ -1,6 +1,5 @@
 ---
 title: Attributions
-lang: en
 ---
 
 # Attributions
@@ -10,4 +9,7 @@ projects, all provided under the MIT License:
 
 - [sb2nov/resume](https://github.com/sb2nov/resume/)
 - [jakegut/resume](https://github.com/jakegut/resume)
-- [b2a3e8/jekyll-theme-console](https://github.com/b2a3e8/jekyll-theme-console)
+- [h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
+- [vincentdoerig/latex-css](https://github.com/vincentdoerig/latex-css)
+- [jekyll/jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)
+- [jekyll/jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap)

@@ -1,6 +1,5 @@
 ---
 title: Home
-lang: en
 ---
 
 # Matthew J. Moran's Resume

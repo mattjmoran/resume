@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/latex.css/style.min.css" />
+
+  {% seo %}
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  {% if site.style == 'light' %}
+  <meta name="theme-color" content="hsl(210, 20%, 98%)">
+  {% elsif site.style == 'dark' %}
+  <meta name="theme-color" content="hsl(0, 0%, 16%)">
+  {% else %}
+  <meta name="theme-color" content="hsl(210, 20%, 98%)">
+  <meta name="theme-color" content="hsl(0, 0%, 16%)" media="(prefers-color-scheme: dark)">
+  {% endif %}
+</head>
+
+<body {% if site.style == 'light' %}{% elsif site.style == 'dark' %}class="latex-dark"{% else %}class="latex-dark-auto"{% endif %}>
+  {{ content }}
+</body>
+
+</html>
