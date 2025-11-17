@@ -19,8 +19,14 @@ jobs:
         uses: actions/checkout@v4
       - name: Compile LaTeX document
         run: ./build.sh resume.tex
-      - name: Release PDF
+      - name: Install Poppler
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - name: Convert PDF to PNG
+        run: pdftoppm -png -singlefile -r 300 resume.pdf resume
+      - name: Release resume
         uses: softprops/action-gh-release@v2
         with:
           tag_name: latest
-          files: resume.pdf
+          files: |
+            resume.pdf
+            resume.png
