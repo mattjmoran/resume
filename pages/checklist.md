@@ -11,6 +11,7 @@ both automated systems and human reviewers.
 
 - Check for any spelling and grammatical errors
 - Errors and formatting inconsistencies may reflect poorly on your work quality
+- Ensure your resume can be understood and evaluated in a 15-second scan
 - Include things relevant to the role you are applying for
 - If you lack direct experience in the required field, emphasize transferable
   skills from other domains
@@ -78,6 +79,8 @@ both automated systems and human reviewers.
 - Avoid keyword stuffing that compromises readability and natural flow
 - Present yourself as a specialist by highlighting deep expertise in a few core
   technologies
+- Use descriptive filenames when saving your resume (e.g.,
+  `FirstName_LastName_CompanyName_Resume.pdf` not `Resume.pdf`)
 
 ## Audience
 
@@ -214,6 +217,10 @@ both automated systems and human reviewers.
   accomplishments to highlight your work's impact
 - When quantifying accomplishments, provide business context (tied to company
   objectives) and clearly attribute your specific contribution
+- When possible, quantify impact in business terms such as dollars saved,
+  revenue generated, or costs reduced
+- Include user metrics and adoption numbers if your work reached real users
+  (e.g., "deployed to 10,000+ users")
 - Don't exaggerate or inflate your contributions; be honest about your actual
   role and responsibilities
 - Include non-quantifiable achievements such as awards, promotions, or
@@ -222,7 +229,8 @@ both automated systems and human reviewers.
 ## Projects
 
 - Include at least 2 projects that showcase your key contributions
-- Link projects to their GitHub repositories, if possible
+- Link projects to their GitHub repositories, live applications, or landing
+  pages
 - Showcase relevant open-source projects (from coursework, research, or hobbies)
 - Make sure your projects align with the job posting
 - Keep it concise by only including the most relevant, impressive projects
@@ -264,6 +272,7 @@ resources by software engineers, hiring managers, and technical recruiters:
 - [Tech Interview Handbook][Tech Interview Handbook]
 - [FAANG Tech Leads' Resume Checklist][FAANG Tech Leads]
 - [Chip Huyen's "What we look for in a resume"][Chip Huyen]
+- [Nick Singh's "36 Resume Rules for Software Engineers"][Nick Singh]
 - [Anthony Sistilli's Resume Checklist][Anthony Sistilli]
 - [Aqeel Anwar's "The Dos and Don'ts of a Software Engineer Resume to get you
   shortlisted for interviews more"][Aqeel Anwar]
@@ -273,5 +282,6 @@ resources by software engineers, hiring managers, and technical recruiters:
 [Tech Interview Handbook]: https://www.techinterviewhandbook.org/
 [FAANG Tech Leads]: https://www.faangtechleads.com/resume/checklist
 [Chip Huyen]: https://huyenchip.com/2023/01/24/what-we-look-for-in-a-candidate.html
+[Nick Singh]: https://www.nicksingh.com/posts/36-resume-rules-for-software-engineers
 [Anthony Sistilli]: https://map.sistilli.dev/public/coding/Software+Engineer's+Resume+Checklist
 [Aqeel Anwar]: https://aqeel-anwar.medium.com/the-dos-and-donts-of-a-software-engineer-resume-to-get-you-shortlisted-for-interviews-more-7d6a926156c0
