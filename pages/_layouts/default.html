@@ -8,9 +8,9 @@
 
   {% seo %}
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" href="{{ 'favicon.ico' | relative_url }}" sizes="any">
+  <link rel="icon" href="{{ 'icon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="{{ 'icon.png' | relative_url }}">
 
   {% if site.style == 'light' %}
   <meta name="theme-color" content="hsl(210, 20%, 98%)">
@@ -24,6 +24,22 @@
 
 <body {% if site.style == 'light' %}{% elsif site.style == 'dark' %}class="latex-dark"{% else %}class="latex-dark-auto"{% endif %}>
   {{ content }}
+  <footer style="margin-top: 3rem; text-align: center;">
+    <hr>
+    <nav>
+      <p>
+        {%- for item in site.nav -%}
+          {%- assign nav_page = site.pages | where: "path", item | first -%}
+          {%- if nav_page.url == page.url -%}
+            {{ nav_page.title }}
+          {%- else -%}
+            <a href="{{ nav_page.url | relative_url }}">{{ nav_page.title }}</a>
+          {%- endif -%}
+          {%- unless forloop.last %} · {% endunless -%}
+        {%- endfor -%}
+      </p>
+    </nav>
+  </footer>
 </body>
 
 </html>

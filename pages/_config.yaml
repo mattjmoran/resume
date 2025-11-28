@@ -12,6 +12,11 @@ social:
     - https://www.linkedin.com/in/matt-j-moran/
 lang: en
 locale: en_US
+# Navigation
+nav:
+  - index.md
+  - checklist.md
+  - attributions.md
 # Plugins
 plugins:
   - jekyll-seo-tag
