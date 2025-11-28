@@ -7,6 +7,8 @@ title: Home
 A LaTeX-based resume template with resources and best practices for creating an
 effective resume.
 
+[![Resume Preview][Resume PNG]][Resume PDF]
+
 ## Getting Started
 
 ### Local
@@ -30,7 +32,6 @@ Use an online LaTeX editor to get started quickly:
 
 - [Best Practices Checklist][Best Practices Checklist] - Comprehensive resume
   guidelines
-- [View Resume PDF][Resume PDF] - See the template in action
 - [GitHub Repository][GitHub Repository] - Source code and template
 
 ## Features
@@ -56,5 +57,6 @@ If this project helped you, consider [giving it a star on GitHub][GitHub Reposit
 
 [GitHub Repository]: https://github.com/mattjmoran/resume
 [Resume LaTeX]: https://github.com/mattjmoran/resume/blob/main/resume.tex
+[Resume PNG]: https://github.com/mattjmoran/resume/releases/download/latest/resume.png
 [Resume PDF]: https://github.com/mattjmoran/resume/releases/download/latest/resume.pdf
-[Best Practices Checklist]: https://mattjmoran.github.io/resume/checklist
+[Best Practices Checklist]: ./checklist.md
